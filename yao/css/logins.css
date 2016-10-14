@@ -1,0 +1,44 @@
+body,html,div,p,span,a,input{margin: 0;padding: 0;border:none;}
+a{text-decoration: none;}
+.cen{width: 1080px;margin:auto;}
+.log{height: 470px;border-top: 2px solid #0083CE;
+-moz-border-radius: 8px;
+-webkit-box-shadow: #666 0px 0px 10px;
+-moz-box-shadow: #666 0px 0px 10px;
+margin-bottom: 20px;}
+.log img{float: left;}
+.log p{color: #5E5E5E;font-size: 22px;float: left;margin-left: 33px;line-height: 73px;}
+.log span,.log a{float: left;font-size: 14px;margin-top: 32px;}
+.log span{margin-left: 111px;}
+.log a{color: #0083CE;}
+.log_r{width: 470px;height:auto;float: right}
+.prom,.prom2,.prom3{width: 340px;height: 70px;margin-left: 28px;overflow: hidden;}
+#acco,#cip,#auth{list-style: none;padding: 6px 12px 6px 40px;border: 1px solid #E6E6E6;width: 286px; height: 26px;float: left;}
+#auth{width: 172px!important;padding-left: 5px;}
+#acco{background: url(../icon/regest.png)no-repeat 7px -115px;}
+#cip{background: url(../icon/regest.png)no-repeat 7px -150px;}
+.prom span,.prom2 span,.prom3 span{font-size: 12px;color: red;line-height: 30px;margin:0;padding: 0;float: left;display: none;}
+.prom2 a{float: left;color: #A5A5A5;margin:0px; line-height: 30px;position: absolute;margin-top: 40px;margin-left: -75px;}
+.prom2 a:hover{color: blue;text-decoration: underline;}
+#chec{float: left;margin-left:28px;margin-top:4px;margin-right: 5px;}
+h6{margin:0;font-size: 13px;font-weight: 100;}
+#sig{width: 314px;height: 26px;display: block;padding:6px 12px;background: #0099F1;font-size: 18px;line-height: 26px;text-align: center;color: #fff;margin-top:10px;margin-left: 28px;}
+.wailian{font-size: 12px;font-weight: 100;}
+i{font-style: normal;font-size: 12px;display: block;width: 300px;color: #5E5E5E;margin-left: 28px;line-height: 50px;}
+.oth{height: 55px;width: auto;margin-left:28px;}
+.oth a{height: 39px; width: 39px; display: block;background: url(../icon/img_zhifu.png)no-repeat;margin-right:18px;margin-top:0px;}
+#oth_2{background-position:-47px 0px }
+#oth_3{background-position:-95px 0px }
+#oth_4{background-position:-143px 0px}
+#oth_5{background-position:-190px 0px}
+#oth_6{background-position:-241px 0px }
+#oth_1:hover{background-position: 0px -52px}
+#oth_2:hover{background-position:-47px -52px }
+#oth_3:hover{background-position:-95px -52px }
+#oth_4:hover{background-position:-143px -52px}
+#oth_5:hover{background-position:-190px -52px}
+#oth_6:hover{background-position:-241px -52px }
+.corre{width: 980px;height: 65px;margin:auto;margin-top: 50px;margin-bottom: 20px;float: left;}
+.corre p{display: block;height: 15px;text-align: center;font-size: 12px;color: #666;margin-top:10px;}
+.corre p a{color: #666;margin-left: 12px; margin-right: 14px;}
+.corre p a:hover{color: blue;text-decoration: underline;}

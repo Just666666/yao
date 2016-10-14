@@ -1,0 +1,791 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<link rel="stylesheet" type="text/css" href="./css/index.css">
+	<link rel="stylesheet" type="text/css" href="./css/jquery.xcarousel.css">
+	<script type="text/javascript" src="./js/jquery-1.12.0.js"></script>
+	<script type="text/javascript" src="./js/index_js.js"></script>
+	<script src="./js/jquery.xcarousel.js"></script>
+	<script type="text/javascript" src="./js/louti.js"></script>
+</head>
+<body>
+<!-- 	<div id="moon"></div>
+	<script type="text/javascript">	
+			$(function(){$("#moon").load("head.html")});
+	</script> -->
+	<div id="LoutiNav">
+		<ul>
+			<li class="hover">1F <span>家庭常备</span> </li>
+			<li>2F <span>专科用药</span> </li>
+			<li>3F <span>医疗器械</span> </li>
+			<li>4F <span>隐形眼镜</span> </li>
+			<li>5F <span>滋补保健</span> </li>
+			<li>6F <span>维生素钙</span> </li>
+			<li>7F <span>药妆个护</span> </li>
+			<li>8F <span>计生情趣</span> </li>
+			<li>9F <span>母婴用品</span> </li>
+			<!-- <li class="last">Top</li> -->
+		</ul>
+	</div>
+	<div class="navi_adver cent">
+		<img src="./img/adver1.jpg" alt="">
+	</div>
+	<div class="sear cent">
+		<img src="./icon/yao_logo.png" alt="">
+		<div class="search">
+			<div class="search_inp">
+				<input type="text" name="" id="search_input" placeholder="请输入商品名">
+				<button id="search_sou"></button>
+			</div>
+			<a href="" class="search_hot">妇科日最低9.9元</a>
+			<a href="" class="search_hot">妇科日最低9.9元</a>
+			<a href="">妇科日最低9.9元</a>
+			<a href="">妇科日最低9.9元</a>
+			<a href="">妇科日最低9.9元</a>
+		</div>
+	</div>
+	<div class="focu cent">
+		<div class="focu_sear_l">
+			<a>所有产品</a>
+			<ul id="focu_sear_l_ul">
+				<li><i class="iconfont zhongxiyao">&#xe67a;</i><a href="">中西医药</a></li>
+				<li><i class="iconfont zhongxiyao">&#xe61b;</i><a href="">滋补保健</a></li>
+				<li><i class="iconfont zhongxiyao">&#xe65d;</i><a href="">维生素钙</a></li>
+				<li><i class="iconfont zhongxiyao">&#xe609;</i><a href="">隐形眼镜</a></li>
+				<li><i class="iconfont zhongxiyao">&#xe627;</i><a href="">医疗器械，家电</a></li>
+				<li><i class="iconfont zhongxiyao">&#xe657;</i><a href="">药妆个护</a></li>
+				<li><i class="iconfont zhongxiyao">&#xe66d;</i><a href="">成人用品</a></li>
+				<li><i class="iconfont zhongxiyao">&#xe63c;</i><a href="">母婴专区</a></li>
+				<li><i class="iconfont zhongxiyao">&#xe60e;</i><a href="">参茸花茶，休闲零食</a></li>
+				<li><i class="iconfont zhongxiyao">&#xf0167;</i><a href="">体验，口腔诊疗</a></li>
+			</ul>
+			<div class="menuse">
+				<div class="menuse_l">
+					<ul>
+						<li>
+							<a href="" id="menuse_a1">男科疾病</a>
+							<a href="" id="menuse_a2">性功能障碍|</a>
+							<a href="" id="menuse_a2">男性不育症|</a>
+							<a href="" id="menuse_a2">前列腺炎|</a>
+							<a href="" id="menuse_a2">肾病|</a>
+							<a href="" id="menuse_a2">泌尿系统疾病|</a>
+							<a href="" id="menuse_a2">补肾|</a>	
+						</li>
+						<li></li>
+						<li></li>
+						<li></li>
+						<li></li>
+					</ul>
+					<ul>
+						<li></li>
+						<li></li>
+						<li></li>
+						<li></li>
+					</ul>
+					<ul>
+						<li></li>
+						<li></li>
+						<li></li>
+						<li></li>
+					</ul>
+				</div>
+				<div class="menuse_r">
+					<div class="menuse_rt">
+						<img src="img/20160924231902861.jpg" alt="">
+					</div>
+					<div class="menuse_rb">
+						<img src="img/20161009093329606.jpg" alt="">
+					</div>
+				</div>
+				<script type="text/javascript">
+					$(function(){
+						$("#focu_sear_l_ul").hover(function(){
+							$(".menuse").toggle();
+						});
+						// $(".menuse").hover(function(){
+						// 	$(".menuse").toggle();
+						// });
+
+					})
+				</script>
+			</div>
+		</div>
+		<div class="focu_sear_c">
+			<div class="focu_sear_c_dh">
+				<a href="">首页</a>
+				<a href="">家庭常备药</a>
+				<a href="">乙肝</a>
+				<a href="">抑郁症</a>
+				<a href="">性功能障碍</a>
+				<a href="">高血压</a>
+				<a href="">癫痫</a>
+				<a href=""><i class="iconfont_goo"><img src="./icon/goo.png" alt=""></i>海外购</a>	
+			</div>
+			<div class="focu_sear_c_lbt">
+				<div class="lbt">
+					<ul>
+						<li><img src="./img/1475225432735187.jpg" alt=""></li>
+						<li><img src="./img/1475225874576191.jpg" alt=""></li>
+						<li><img src="./img/1475226811462207.jpg" alt=""></li>
+						<li><img src="./img/1475889299269155.jpg" alt=""></li>
+						<li><img src="./img/1475890002258163.jpg" alt=""></li>
+						<li><img src="./img/1475917930265169.jpg" alt=""></li>
+					</ul>
+					<script>
+							// 写jquery代码的安全格式
+						jQuery(function($){
+							console.log($.fn);
+							$('.lbt').xcarousel({
+								width:750,
+								height:400,
+								// page:false,
+								autoPlay:true,
+								// buttons:false,
+								type:'fade'
+								});
+							});
+					</script>
+				</div>
+			</div>
+		</div>
+		<div class="focu_sear_r">
+			<div class="focu_sear_rt">
+				<a href="">掌上1药网</a>
+			</div>
+			<div class="focu_sear_rb">
+				<div class="focu_sear_rbo">在线咨询</div>
+				<div class="focu_sear_rbt">
+					<a href="">男科></a>
+					<a href="">妇科></a>
+					<a href="">糖尿病></a>
+					<a href="">心脑血管></a>
+					<a href="">肿瘤></a>
+					<a href="">消化科></a>
+					<a href="">风湿骨科></a>
+					<a href="">皮肤性病></a>
+					<a href="">耳鼻喉科></a>
+					<a href="">呼吸科></a>
+					<a href="">滋补保健></a>
+					<a href="">散光眼配></a>
+					<a href="">医疗器械></a>
+					<a href="">肝胆科></a>
+					<a href="">神经科></a>
+				</div>
+				<div class="focu_sear_rbth">
+					<div class="focu_sear_rbth_o">
+						<a href="">优质服务</a>
+						<span>公告</span>
+					</div>
+					<div class="focu_sear_rbth_t">
+						<a href=""><em id="focu_sear_rbth_t_em1"></em>正品保障</a>
+						<a href=""><em id="focu_sear_rbth_t_em2"></em>品牌授权</a>
+						<a href=""><em id="focu_sear_rbth_t_em3"></em>药监认证</a>
+						<a href=""><em id="focu_sear_rbth_t_em4"></em>满79包邮</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="small_focu cent">
+		<div class="small_focu_clock">
+			<img src="img/2016-10-14_105256.png" alt="">
+		</div>
+		<a href=""></a>
+		<a href=""></a>
+		<a href=""></a>
+		<a href=""></a>
+	</div>
+	<div class="navi2_adver cent">
+		<img src="./img/1475889567505159.jpg" alt="">
+	</div>
+	<div id="main">
+	<div class="prod_o cent" id="pro_col1">
+		<div class="prod_o_l">
+			<div class="prod_o_l_t" id="layer1"><p>1F&nbsp;家庭常备药</p></div>
+			<div class="prod_o_l_b">
+				<ul>
+					<li><a href="">补肾</a></li>
+					<li><a href="">皮炎廯症</a></li>
+					<li><a href="">补血补气</a></li>
+					<li><a href="">腹泻</a></li>
+					<li><a href="">鼻炎</a></li>
+					<li><a href="">前列腺炎</a></li>
+					<li><a href="">青春痘</a></li>
+					<li><a href="">保护肝脏</a></li>
+					<li><a href="">减肥瘦身</a></li>
+					<li><a href="">男性不育症</a></li>
+					<li><a href="">眼干眼涩</a></li>
+					<li><a href="">感冒发烧</a></li>
+					<li><a href="">阴道炎</a></li>
+					<li><a href="">避孕</a></li>
+					<li><a href="">胃炎</a></li>
+					<li><a href="">增强抵抗力</a></li>
+				</ul>
+			</div>
+		</div>
+		<div class="prod_o_r">
+			<div class="prod_o_r_t">
+				<div class="prod_o_r_t_l">
+					<div class="lbt2">
+						<ul>
+							<li><img src="./img/1475925369981271.jpg" alt=""></li>
+							<li><img src="./img/1475925508779273.jpg" alt=""></li>
+							<li><img src="./img/1475993693164185.jpg" alt=""></li>
+						</ul>
+						<script>
+								// 写jquery代码的安全格式
+							jQuery(function($){
+								console.log($.fn);
+								$('.lbt2').xcarousel({
+									width:605,
+									height:285,
+									// page:false,
+									autoPlay:true,
+									// buttons:false,
+									type:'fade'
+									});
+								});
+						</script>
+					</div>
+				</div>
+				<div class="prod_o_r_t_r">
+					<a href=""><img src="img/1473737445716127.jpg"></a>
+					<a href=""><img src="img/1472811107401103.jpg"></a>
+				</div>
+			</div>	
+			<div class="prod_o_r_b">
+				<ul>
+					<li><img src="img/100_100.jpg"><a href="">芬必得布洛芬缓释胶囊</a><p>￥15.0</p></li>
+					<li><img src="img/100_100_1.jpg"><a href="">福牌 阿胶 500g</a><p>￥799.0</p></li>
+					<li><img src="img/100_100_2.jpg"><a href="">达芙通 地屈孕酮片</a><p>￥115.0</p></li>
+					<li><img src="img/100_100_3.jpg"><a href="">妈咪爱 枯草杆菌</a><p>￥41.9.0</p></li>
+					<li><img src="img/100_100_4.jpg"><a href="">艾丽（原塑料）奥利斯</a><p>￥125.0</p></li>
+				</ul>
+			</div>		
+		</div>
+	</div><!-- 1楼 -->
+	<div class="prod_o cent" id="pro_col2">
+		<div class="prod_o_l">
+			<div class="prod_o_l_t" id="layer2"><p>2F&nbsp;专科用药</p></div>
+			<div class="prod_o_l_b">
+				<ul>
+					<li><a href="">补肾</a></li>
+					<li><a href="">皮炎廯症</a></li>
+					<li><a href="">补血补气</a></li>
+					<li><a href="">腹泻</a></li>
+					<li><a href="">鼻炎</a></li>
+					<li><a href="">前列腺炎</a></li>
+					<li><a href="">青春痘</a></li>
+					<li><a href="">保护肝脏</a></li>
+					<li><a href="">减肥瘦身</a></li>
+					<li><a href="">男性不育症</a></li>
+					<li><a href="">眼干眼涩</a></li>
+					<li><a href="">感冒发烧</a></li>
+					<li><a href="">阴道炎</a></li>
+					<li><a href="">避孕</a></li>
+					<li><a href="">胃炎</a></li>
+					<li><a href="">增强抵抗力</a></li>
+				</ul>
+			</div>
+		</div>
+		<div class="prod_o_r">
+			<div class="prod_o_r_t">
+				<div class="prod_o_r_t_l">
+					<div class="lbt3">
+						<ul>
+							<li><img src="./img/1475925369981271.jpg" alt=""></li>
+							<li><img src="./img/1475925508779273.jpg" alt=""></li>
+							<li><img src="./img/1475993693164185.jpg" alt=""></li>
+						</ul>
+						<script>
+								// 写jquery代码的安全格式
+							jQuery(function($){
+								console.log($.fn);
+								$('.lbt3').xcarousel({
+									width:605,
+									height:285,
+									// page:false,
+									autoPlay:true,
+									// buttons:false,
+									type:'fade'
+									});
+								});
+						</script>
+					</div>
+				</div>
+				<div class="prod_o_r_t_r">
+					<a href=""><img src="img/1473737445716127.jpg"></a>
+					<a href=""><img src="img/1472811107401103.jpg"></a>
+				</div>
+			</div>	
+			<div class="prod_o_r_b">
+				<ul>
+					<li><img src="img/100_100.jpg"><a href="">芬必得布洛芬缓释胶囊</a><p>￥15.0</p></li>
+					<li><img src="img/100_100_1.jpg"><a href="">福牌 阿胶 500g</a><p>￥799.0</p></li>
+					<li><img src="img/100_100_2.jpg"><a href="">达芙通 地屈孕酮片</a><p>￥115.0</p></li>
+					<li><img src="img/100_100_3.jpg"><a href="">妈咪爱 枯草杆菌</a><p>￥41.9.0</p></li>
+					<li><img src="img/100_100_4.jpg"><a href="">艾丽（原塑料）奥利斯</a><p>￥125.0</p></li>
+				</ul>
+			</div>		
+		</div>
+	</div><!-- 2楼 -->
+	<div class="prod_o cent" id="pro_col3">
+		<div class="prod_o_l">
+			<div class="prod_o_l_t" id="layer3"><p>3F&nbsp;医疗器械</p></div>
+			<div class="prod_o_l_b">
+				<ul>
+					<li><a href="">补肾</a></li>
+					<li><a href="">皮炎廯症</a></li>
+					<li><a href="">补血补气</a></li>
+					<li><a href="">腹泻</a></li>
+					<li><a href="">鼻炎</a></li>
+					<li><a href="">前列腺炎</a></li>
+					<li><a href="">青春痘</a></li>
+					<li><a href="">保护肝脏</a></li>
+					<li><a href="">减肥瘦身</a></li>
+					<li><a href="">男性不育症</a></li>
+					<li><a href="">眼干眼涩</a></li>
+					<li><a href="">感冒发烧</a></li>
+					<li><a href="">阴道炎</a></li>
+					<li><a href="">避孕</a></li>
+					<li><a href="">胃炎</a></li>
+					<li><a href="">增强抵抗力</a></li>
+				</ul>
+			</div>
+		</div>
+		<div class="prod_o_r">
+			<div class="prod_o_r_t">
+				<div class="prod_o_r_t_l">
+					<div class="lbt4">
+						<ul>
+							<li><img src="./img/1475925369981271.jpg" alt=""></li>
+							<li><img src="./img/1475925508779273.jpg" alt=""></li>
+							<li><img src="./img/1475993693164185.jpg" alt=""></li>
+						</ul>
+						<script>
+								// 写jquery代码的安全格式
+							jQuery(function($){
+								console.log($.fn);
+								$('.lbt4').xcarousel({
+									width:605,
+									height:285,
+									// page:false,
+									autoPlay:true,
+									// buttons:false,
+									type:'fade'
+									});
+								});
+						</script>
+					</div>
+				</div>
+				<div class="prod_o_r_t_r">
+					<a href=""><img src="img/1473737445716127.jpg"></a>
+					<a href=""><img src="img/1472811107401103.jpg"></a>
+				</div>
+			</div>	
+			<div class="prod_o_r_b">
+				<ul>
+					<li><img src="img/100_100.jpg"><a href="">芬必得布洛芬缓释胶囊</a><p>￥15.0</p></li>
+					<li><img src="img/100_100_1.jpg"><a href="">福牌 阿胶 500g</a><p>￥799.0</p></li>
+					<li><img src="img/100_100_2.jpg"><a href="">达芙通 地屈孕酮片</a><p>￥115.0</p></li>
+					<li><img src="img/100_100_3.jpg"><a href="">妈咪爱 枯草杆菌</a><p>￥41.9.0</p></li>
+					<li><img src="img/100_100_4.jpg"><a href="">艾丽（原塑料）奥利斯</a><p>￥125.0</p></li>
+				</ul>
+			</div>		
+		</div>
+	</div><!-- 3楼 -->
+	<div class="prod_o cent" id="pro_col4">
+		<div class="prod_o_l">
+			<div class="prod_o_l_t" id="layer4"><p>4F&nbsp;隐形眼镜</p></div>
+			<div class="prod_o_l_b">
+				<ul>
+					<li><a href="">补肾</a></li>
+					<li><a href="">皮炎廯症</a></li>
+					<li><a href="">补血补气</a></li>
+					<li><a href="">腹泻</a></li>
+					<li><a href="">鼻炎</a></li>
+					<li><a href="">前列腺炎</a></li>
+					<li><a href="">青春痘</a></li>
+					<li><a href="">保护肝脏</a></li>
+					<li><a href="">减肥瘦身</a></li>
+					<li><a href="">男性不育症</a></li>
+					<li><a href="">眼干眼涩</a></li>
+					<li><a href="">感冒发烧</a></li>
+					<li><a href="">阴道炎</a></li>
+					<li><a href="">避孕</a></li>
+					<li><a href="">胃炎</a></li>
+					<li><a href="">增强抵抗力</a></li>
+				</ul>
+			</div>
+		</div>
+		<div class="prod_o_r">
+			<div class="prod_o_r_t">
+				<div class="prod_o_r_t_l">
+					<div class="lbt5">
+						<ul>
+							<li><img src="./img/1475925369981271.jpg" alt=""></li>
+							<li><img src="./img/1475925508779273.jpg" alt=""></li>
+							<li><img src="./img/1475993693164185.jpg" alt=""></li>
+						</ul>
+						<script>
+								// 写jquery代码的安全格式
+							jQuery(function($){
+								console.log($.fn);
+								$('.lbt5').xcarousel({
+									width:605,
+									height:285,
+									// page:false,
+									autoPlay:true,
+									// buttons:false,
+									type:'fade'
+									});
+								});
+						</script>
+					</div>
+				</div>
+				<div class="prod_o_r_t_r">
+					<a href=""><img src="img/1473737445716127.jpg"></a>
+					<a href=""><img src="img/1472811107401103.jpg"></a>
+				</div>
+			</div>	
+			<div class="prod_o_r_b">
+				<ul>
+					<li><img src="img/100_100.jpg"><a href="">芬必得布洛芬缓释胶囊</a><p>￥15.0</p></li>
+					<li><img src="img/100_100_1.jpg"><a href="">福牌 阿胶 500g</a><p>￥799.0</p></li>
+					<li><img src="img/100_100_2.jpg"><a href="">达芙通 地屈孕酮片</a><p>￥115.0</p></li>
+					<li><img src="img/100_100_3.jpg"><a href="">妈咪爱 枯草杆菌</a><p>￥41.9.0</p></li>
+					<li><img src="img/100_100_4.jpg"><a href="">艾丽（原塑料）奥利斯</a><p>￥125.0</p></li>
+				</ul>
+			</div>		
+		</div>
+	</div><!-- 4楼 -->
+	<div class="prod_o cent" id="pro_col5">
+		<div class="prod_o_l">
+			<div class="prod_o_l_t" id="layer5"><p>5F&nbsp;滋补保健</p></div>
+			<div class="prod_o_l_b">
+				<ul>
+					<li><a href="">补肾</a></li>
+					<li><a href="">皮炎廯症</a></li>
+					<li><a href="">补血补气</a></li>
+					<li><a href="">腹泻</a></li>
+					<li><a href="">鼻炎</a></li>
+					<li><a href="">前列腺炎</a></li>
+					<li><a href="">青春痘</a></li>
+					<li><a href="">保护肝脏</a></li>
+					<li><a href="">减肥瘦身</a></li>
+					<li><a href="">男性不育症</a></li>
+					<li><a href="">眼干眼涩</a></li>
+					<li><a href="">感冒发烧</a></li>
+					<li><a href="">阴道炎</a></li>
+					<li><a href="">避孕</a></li>
+					<li><a href="">胃炎</a></li>
+					<li><a href="">增强抵抗力</a></li>
+				</ul>
+			</div>
+		</div>
+		<div class="prod_o_r">
+			<div class="prod_o_r_t">
+				<div class="prod_o_r_t_l">
+					<div class="lbt6">
+						<ul>
+							<li><img src="./img/1475925369981271.jpg" alt=""></li>
+							<li><img src="./img/1475925508779273.jpg" alt=""></li>
+							<li><img src="./img/1475993693164185.jpg" alt=""></li>
+						</ul>
+						<script>
+								// 写jquery代码的安全格式
+							jQuery(function($){
+								console.log($.fn);
+								$('.lbt6').xcarousel({
+									width:605,
+									height:285,
+									// page:false,
+									autoPlay:true,
+									// buttons:false,
+									type:'fade'
+									});
+								});
+						</script>
+					</div>
+				</div>
+				<div class="prod_o_r_t_r">
+					<a href=""><img src="img/1473737445716127.jpg"></a>
+					<a href=""><img src="img/1472811107401103.jpg"></a>
+				</div>
+			</div>	
+			<div class="prod_o_r_b">
+				<ul>
+					<li><img src="img/100_100.jpg"><a href="">芬必得布洛芬缓释胶囊</a><p>￥15.0</p></li>
+					<li><img src="img/100_100_1.jpg"><a href="">福牌 阿胶 500g</a><p>￥799.0</p></li>
+					<li><img src="img/100_100_2.jpg"><a href="">达芙通 地屈孕酮片</a><p>￥115.0</p></li>
+					<li><img src="img/100_100_3.jpg"><a href="">妈咪爱 枯草杆菌</a><p>￥41.9.0</p></li>
+					<li><img src="img/100_100_4.jpg"><a href="">艾丽（原塑料）奥利斯</a><p>￥125.0</p></li>
+				</ul>
+			</div>		
+		</div>
+	</div><!-- 5楼 -->
+	<div class="prod_o cent" id="pro_col6">
+		<div class="prod_o_l">
+			<div class="prod_o_l_t" id="layer6"><p>6F&nbsp;维生素钙</p></div>
+			<div class="prod_o_l_b">
+				<ul>
+					<li><a href="">补肾</a></li>
+					<li><a href="">皮炎廯症</a></li>
+					<li><a href="">补血补气</a></li>
+					<li><a href="">腹泻</a></li>
+					<li><a href="">鼻炎</a></li>
+					<li><a href="">前列腺炎</a></li>
+					<li><a href="">青春痘</a></li>
+					<li><a href="">保护肝脏</a></li>
+					<li><a href="">减肥瘦身</a></li>
+					<li><a href="">男性不育症</a></li>
+					<li><a href="">眼干眼涩</a></li>
+					<li><a href="">感冒发烧</a></li>
+					<li><a href="">阴道炎</a></li>
+					<li><a href="">避孕</a></li>
+					<li><a href="">胃炎</a></li>
+					<li><a href="">增强抵抗力</a></li>
+				</ul>
+			</div>
+		</div>
+		<div class="prod_o_r">
+			<div class="prod_o_r_t">
+				<div class="prod_o_r_t_l">
+					<div class="lbt7">
+						<ul>
+							<li><img src="./img/1475925369981271.jpg" alt=""></li>
+							<li><img src="./img/1475925508779273.jpg" alt=""></li>
+							<li><img src="./img/1475993693164185.jpg" alt=""></li>
+						</ul>
+						<script>
+								// 写jquery代码的安全格式
+							jQuery(function($){
+								console.log($.fn);
+								$('.lbt7').xcarousel({
+									width:605,
+									height:285,
+									// page:false,
+									autoPlay:true,
+									// buttons:false,
+									type:'fade'
+									});
+								});
+						</script>
+					</div>
+				</div>
+				<div class="prod_o_r_t_r">
+					<a href=""><img src="img/1473737445716127.jpg"></a>
+					<a href=""><img src="img/1472811107401103.jpg"></a>
+				</div>
+			</div>	
+			<div class="prod_o_r_b">
+				<ul>
+					<li><img src="img/100_100.jpg"><a href="">芬必得布洛芬缓释胶囊</a><p>￥15.0</p></li>
+					<li><img src="img/100_100_1.jpg"><a href="">福牌 阿胶 500g</a><p>￥799.0</p></li>
+					<li><img src="img/100_100_2.jpg"><a href="">达芙通 地屈孕酮片</a><p>￥115.0</p></li>
+					<li><img src="img/100_100_3.jpg"><a href="">妈咪爱 枯草杆菌</a><p>￥41.9.0</p></li>
+					<li><img src="img/100_100_4.jpg"><a href="">艾丽（原塑料）奥利斯</a><p>￥125.0</p></li>
+				</ul>
+			</div>		
+		</div>
+	</div><!-- 6楼 -->
+	<div class="prod_o cent" id="pro_col7">
+		<div class="prod_o_l">
+			<div class="prod_o_l_t" id="layer7"><p>7F&nbsp;药妆个护</p></div>
+			<div class="prod_o_l_b">
+				<ul>
+					<li><a href="">补肾</a></li>
+					<li><a href="">皮炎廯症</a></li>
+					<li><a href="">补血补气</a></li>
+					<li><a href="">腹泻</a></li>
+					<li><a href="">鼻炎</a></li>
+					<li><a href="">前列腺炎</a></li>
+					<li><a href="">青春痘</a></li>
+					<li><a href="">保护肝脏</a></li>
+					<li><a href="">减肥瘦身</a></li>
+					<li><a href="">男性不育症</a></li>
+					<li><a href="">眼干眼涩</a></li>
+					<li><a href="">感冒发烧</a></li>
+					<li><a href="">阴道炎</a></li>
+					<li><a href="">避孕</a></li>
+					<li><a href="">胃炎</a></li>
+					<li><a href="">增强抵抗力</a></li>
+				</ul>
+			</div>
+		</div>
+		<div class="prod_o_r">
+			<div class="prod_o_r_t">
+				<div class="prod_o_r_t_l">
+					<div class="lbt8">
+						<ul>
+							<li><img src="./img/1475925369981271.jpg" alt=""></li>
+							<li><img src="./img/1475925508779273.jpg" alt=""></li>
+							<li><img src="./img/1475993693164185.jpg" alt=""></li>
+						</ul>
+						<script>
+								// 写jquery代码的安全格式
+							jQuery(function($){
+								console.log($.fn);
+								$('.lbt8').xcarousel({
+									width:605,
+									height:285,
+									// page:false,
+									autoPlay:true,
+									// buttons:false,
+									type:'fade'
+									});
+								});
+						</script>
+					</div>
+				</div>
+				<div class="prod_o_r_t_r">
+					<a href=""><img src="img/1473737445716127.jpg"></a>
+					<a href=""><img src="img/1472811107401103.jpg"></a>
+				</div>
+			</div>	
+			<div class="prod_o_r_b">
+				<ul>
+					<li><img src="img/100_100.jpg"><a href="">芬必得布洛芬缓释胶囊</a><p>￥15.0</p></li>
+					<li><img src="img/100_100_1.jpg"><a href="">福牌 阿胶 500g</a><p>￥799.0</p></li>
+					<li><img src="img/100_100_2.jpg"><a href="">达芙通 地屈孕酮片</a><p>￥115.0</p></li>
+					<li><img src="img/100_100_3.jpg"><a href="">妈咪爱 枯草杆菌</a><p>￥41.9.0</p></li>
+					<li><img src="img/100_100_4.jpg"><a href="">艾丽（原塑料）奥利斯</a><p>￥125.0</p></li>
+				</ul>
+			</div>		
+		</div>
+	</div><!-- 7楼 -->
+	<div class="prod_o cent" id="pro_col8">
+		<div class="prod_o_l">
+			<div class="prod_o_l_t" id="layer8"><p>8F&nbsp;计生情趣</p></div>
+			<div class="prod_o_l_b">
+				<ul>
+					<li><a href="">补肾</a></li>
+					<li><a href="">皮炎廯症</a></li>
+					<li><a href="">补血补气</a></li>
+					<li><a href="">腹泻</a></li>
+					<li><a href="">鼻炎</a></li>
+					<li><a href="">前列腺炎</a></li>
+					<li><a href="">青春痘</a></li>
+					<li><a href="">保护肝脏</a></li>
+					<li><a href="">减肥瘦身</a></li>
+					<li><a href="">男性不育症</a></li>
+					<li><a href="">眼干眼涩</a></li>
+					<li><a href="">感冒发烧</a></li>
+					<li><a href="">阴道炎</a></li>
+					<li><a href="">避孕</a></li>
+					<li><a href="">胃炎</a></li>
+					<li><a href="">增强抵抗力</a></li>
+				</ul>
+			</div>
+		</div>
+		<div class="prod_o_r">
+			<div class="prod_o_r_t">
+				<div class="prod_o_r_t_l">
+					<div class="lbt9">
+						<ul>
+							<li><img src="./img/1475925369981271.jpg" alt=""></li>
+							<li><img src="./img/1475925508779273.jpg" alt=""></li>
+							<li><img src="./img/1475993693164185.jpg" alt=""></li>
+						</ul>
+						<script>
+								// 写jquery代码的安全格式
+							jQuery(function($){
+								console.log($.fn);
+								$('.lbt9').xcarousel({
+									width:605,
+									height:285,
+									// page:false,
+									autoPlay:true,
+									// buttons:false,
+									type:'fade'
+									});
+								});
+						</script>
+					</div>
+				</div>
+				<div class="prod_o_r_t_r">
+					<a href=""><img src="img/1473737445716127.jpg"></a>
+					<a href=""><img src="img/1472811107401103.jpg"></a>
+				</div>
+			</div>	
+			<div class="prod_o_r_b">
+				<ul>
+					<li><img src="img/100_100.jpg"><a href="">芬必得布洛芬缓释胶囊</a><p>￥15.0</p></li>
+					<li><img src="img/100_100 (1).jpg"><a href="">福牌 阿胶 500g</a><p>￥799.0</p></li>
+					<li><img src="img/100_100 (2).jpg"><a href="">达芙通 地屈孕酮片</a><p>￥115.0</p></li>
+					<li><img src="img/100_100 (3).jpg"><a href="">妈咪爱 枯草杆菌</a><p>￥41.9.0</p></li>
+					<li><img src="img/100_100 (4).jpg"><a href="">艾丽（原塑料）奥利斯</a><p>￥125.0</p></li>
+				</ul>
+			</div>		
+		</div>
+	</div><!-- 8楼 -->
+	<div class="prod_o cent" id="pro_col9">
+		<div class="prod_o_l">
+			<div class="prod_o_l_t" id="layer9"><p>9F&nbsp;家庭常备药</p></div>
+			<div class="prod_o_l_b">
+				<ul>
+					<li><a href="">补肾</a></li>
+					<li><a href="">皮炎廯症</a></li>
+					<li><a href="">补血补气</a></li>
+					<li><a href="">腹泻</a></li>
+					<li><a href="">鼻炎</a></li>
+					<li><a href="">前列腺炎</a></li>
+					<li><a href="">青春痘</a></li>
+					<li><a href="">保护肝脏</a></li>
+					<li><a href="">减肥瘦身</a></li>
+					<li><a href="">男性不育症</a></li>
+					<li><a href="">眼干眼涩</a></li>
+					<li><a href="">感冒发烧</a></li>
+					<li><a href="">阴道炎</a></li>
+					<li><a href="">避孕</a></li>
+					<li><a href="">胃炎</a></li>
+					<li><a href="">增强抵抗力</a></li>
+				</ul>
+			</div>
+		</div>
+		<div class="prod_o_r">
+			<div class="prod_o_r_t">
+				<div class="prod_o_r_t_l">
+					<div class="lbt10">
+						<ul>
+							<li><img src="./img/1475925369981271.jpg" alt=""></li>
+							<li><img src="./img/1475925508779273.jpg" alt=""></li>
+							<li><img src="./img/1475993693164185.jpg" alt=""></li>
+						</ul>
+						<script>
+								// 写jquery代码的安全格式
+							jQuery(function($){
+								console.log($.fn);
+								$('.lbt10').xcarousel({
+									width:605,
+									height:285,
+									// page:false,
+									autoPlay:true,
+									// buttons:false,
+									type:'fade'
+									});
+								});
+						</script>
+					</div>
+				</div>
+				<div class="prod_o_r_t_r">
+					<a href=""><img src="img/1473737445716127.jpg"></a>
+					<a href=""><img src="img/1472811107401103.jpg"></a>
+				</div>
+			</div>	
+			<div class="prod_o_r_b">
+				<ul>
+					<li><img src="img/100_100.jpg"><a href="">芬必得布洛芬缓释胶囊</a><p>￥15.0</p></li>
+					<li><img src="img/100_100 (1).jpg"><a href="">福牌 阿胶 500g</a><p>￥799.0</p></li>
+					<li><img src="img/100_100 (2).jpg"><a href="">达芙通 地屈孕酮片</a><p>￥115.0</p></li>
+					<li><img src="img/100_100 (3).jpg"><a href="">妈咪爱 枯草杆菌</a><p>￥41.9.0</p></li>
+					<li><img src="img/100_100 (4).jpg"><a href="">艾丽（原塑料）奥利斯</a><p>￥125.0</p></li>
+				</ul>
+			</div>		
+		</div>
+	</div><!-- 9楼 -->
+	</div>
+</body>
+</html>

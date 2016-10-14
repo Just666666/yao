@@ -1,0 +1,18 @@
+h1,h2,h3,h4,h5,h6,span,a{margin:0;padding: 0;}
+.trade_main{width: 1190px;height: auto;}
+.trade_route{width: 1190px; height: 17px;padding:10px 0px 18px 0px;}
+.trade_route em{display: block;width: 24px;height: 17px;background: url(../icon/yw_home.png)no-repeat;float: left;}
+.trade_route a{margin-right: 10px;margin-left: 5px;}
+.trade_route a:hover{color: red;}
+.trade_img {width: 300px;height: 406px;float: left;margin-right:18px;margin-left:100px;position: relative;float: left;}
+.trade_img img{border:1px solid #E6E6E6;margin-bottom: 5px;}
+.xm_middle{width: 500px;float: left;}
+.p_shang{color: #5e5e5e;font-size: 24px;margin:0px 0px 20px 0px;}
+.p_xia{color: #E54948;font-size: 14px;margin-bottom: 30px;}
+.price1{font-size: 16px;}
+.price{color: #E54948;font-size: 24px;}
+.shuliang{width: 15px;padding-left:15px;height: 25px;}
+.c_prev,.c_next{width: 25px;height: 29px;font-size: 18px;}
+.fuli{display: block;font-size: 14px;border-radius: 5px 5px 5px 5px ;background: red;width: 30px;color: #fff;float: left;margin-right: 10px;}
+.song{line-height: 24px;}
+.jrgwc p{display: block;width: 250px;height: 48px;border-bottom: 2px solid #9A0900;background: #E72418;border-radius: 2px 2px 2px 2px;color: #fff;font-size: 28px;font-weight: 500;text-align: center;line-height: 48px;}

@@ -1,0 +1,93 @@
+div,img,p{
+	margin: 0;
+	padding: 0;
+	border: none;
+}
+.cen{
+	width: 990px;
+	margin: auto;
+}
+.subject{
+	height: 430px;
+	border:1px solid #e6e6e6;
+	border-top: 2px solid #0083ce;
+	-moz-border-radius: 8px;
+-webkit-box-shadow: #666 0px 0px 10px;
+-moz-box-shadow: #666 0px 0px 10px;
+margin-bottom: 20px;
+}
+.subject p{
+	font-size: 20px;
+	font-family: '微软雅黑';
+	line-height: 54px;
+	margin-left: 52px;
+	color: #945e5e;
+	float: left;
+}
+.subject span{
+	float: left;
+	margin-left: 654px;
+	font-size: 12px;
+	line-height: 52px;
+	color: #5e5e5e;
+}
+.subject span a{
+	color: blue;
+	text-decoration: none;
+}
+.subject .matt{
+	float: left;
+	width: 988px;
+	height: auto;
+	padding-left: 80px;
+}
+.subject .matt div{
+	width: 342px;
+	height: 70px;
+	position: relative;
+}
+.subject .matt span{
+	margin-left: 388px!important;
+	background: url(../icon/r_bg_02.png);
+	width: 500px;
+	height: 372px;
+	position: absolute;
+}
+.inp{
+	list-style: none;
+	width: 286px;
+	height: 26px;
+	border:1px solid #e6e6e6;
+	padding: 6px 12px 6px 40px;
+}
+#phone{
+	background: url(../icon/regest.png)no-repeat 7px -115px;
+}
+#pass,#conpass{
+	background: url(../icon/regest.png)no-repeat 7px -148px;
+}
+.inform{
+	width: 342px;
+	height: 70px;
+}
+#rechec{float: left;}
+h6{margin:0;font-size: 13px;font-weight: 100;}
+#resig{width: 314px;height: 26px;display: block;padding:6px 12px;background: #0099F1;font-size: 18px;line-height: 26px;text-align: center;color: #fff;margin-top:10px;}
+.reoth{height: 55px;width: auto;}
+.reoth a{height: 39px; width: 39px; display: block;background: url(../icon/img_zhifu.png)no-repeat;margin-right:18px;margin-top:0px;float: left;}
+#oth_2{background-position:-47px 0px }
+#oth_3{background-position:-95px 0px }
+#oth_4{background-position:-143px 0px}
+#oth_5{background-position:-190px 0px}
+#oth_6{background-position:-241px 0px }
+#oth_1:hover{background-position: 0px -52px}
+#oth_2:hover{background-position:-47px -52px }
+#oth_3:hover{background-position:-95px -52px }
+#oth_4:hover{background-position:-143px -52px}
+#oth_5:hover{background-position:-190px -52px}
+#oth_6:hover{background-position:-241px -52px }
+i{font-style: normal;font-size: 12px;display: block;width: 300px;color: #5E5E5E;margin-left: 28px;line-height: 50px;}
+.corre{width: 980px;height: 65px;margin:auto;margin-top: 50px;margin-bottom: 20px;}
+.corre p{display: block;height: 15px;text-align: center;font-size: 12px;color: #666;margin-top:10px;}
+.corre p a{color: #666;margin-left: 12px; margin-right: 14px}
+.corre p a:hover{color: blue;text-decoration: underline;}

@@ -1,0 +1,20 @@
+body,html,div,img,p,span,ul,li{margin:0;padding: 0;border: none;}
+ul,li{list-style: none;}
+.authen{width: 1263px;height: 180px;margin:80px 0px 50px 0px;background: #F0F0F0;}
+.dimen{width: 1263px; height: 148px;margin:auto;}
+.authen img{margin-left: 43px;margin-top: 32px;}
+.dimen1{width: 343px;height: 108px;background: #F0F0F0;float: left;margin-left: 20px;padding: 20px 0px 20px 40px;}
+.dimen1 img{float: left;}
+.dimen1 span{font-size: 19px; color: #C7A78A;margin-left: 22px;}
+.dimen1 p{font-size: 12px; color: #707070;line-height:21px;margin-left: 22px;display: block;width: 200px;float: left;}
+.adap{width: 1190px;height: 200px;margin:auto;}
+.adap span{font-size: 16px;color: #5E5E5E;width: 150px;display: block;float: left;font-weight: 700;line-height: 40px;margin-top:20px;}
+.adap_list{width: 900px;overflow: hidden;position: relative;}
+.adap ul{width: 150px;float: left;}
+.adap ul li{font-size: 12px;color: #999;line-height: 24px;}
+.phon{width: 285px;height: 67px;border-left: 1px solid #eee;position: absolute;margin-left: 860px;margin-top:-140px;padding:15px 0px 15px 0px;}
+.p_phon{display: block;width: 285px;height: 23px;font-size: 18px;text-align: center;line-height: 23px;color: #C7A774;}
+.day_phon{display: block;width: 285px;text-align: center;font-size: 12px;color: #999;height: 12px;}
+.logs{width: 1263px;height: 118px;margin:auto;text-align: center;margin-top: 30px;}
+.logs p{color: #999;}
+.logs p a{text-decoration: none;font-size: 14px;color: #999;margin: 5px 4px 0px 4px;}
